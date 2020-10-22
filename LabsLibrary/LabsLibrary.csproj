@@ -5,11 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Labs\Lab1\" />
     <Folder Include="Labs\Lab2\" />
     <Folder Include="Labs\Lab3\" />
     <Folder Include="Labs\Lab4\" />
     <Folder Include="Labs\Lab5\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 
   <ItemGroup>
