@@ -10,7 +10,8 @@ namespace LabsLoader
     {
         static void Main(string[] args)
         {
-            List<IRunnable> labs = LabFactory.GetLabs().ToList();
+            List<IRunnable> labs = LabFactory.GetLabs().OrderBy(s => s.GetType().Name).ToList();
+            
 
             if (labs.Count == 0)
             {
