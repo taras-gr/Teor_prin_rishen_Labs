@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Labs\Lab4\" />
     <Folder Include="Labs\Lab5\" />
   </ItemGroup>
 
